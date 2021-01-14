@@ -156,7 +156,7 @@ def crossword(L):
 
 
   
-#test cases
+#test case (this can be changed to any words)
 crossword(["abcdefghijklmnopqrst",
                "fffffggg",
                "ttttttttttuuuuuuuuuz",
@@ -172,21 +172,5 @@ crossword(["abcdefghijklmnopqrst",
                "maker",
                "remake","hat",])
 
-#blelow resets the bord before doing other test case
-print()
-blank = ' '
-board = [[ blank ] * 20 for i in range(20) ]
-print("below is test 2")
 
-
-crossword(["rider",
-               "elephant",
-               "apple",
-               "lint",
-               "inner",
-               "rocky",
-               "officer",
-               "ontario",
-               "wave",
-               "paint",])
 
